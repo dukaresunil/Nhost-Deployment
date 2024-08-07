@@ -4,6 +4,9 @@
   "private": true,
   "dependencies": {
     "@nhost/nhost-js": "^3.1.6",
+    "@nhost/react": "^3.5.3",
+    "@nhost/react-apollo": "^12.0.3",
+    "@nhost/react-auth": "^3.6.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
