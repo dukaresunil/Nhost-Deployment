@@ -1,6 +1,9 @@
-import { NhostClient } from "@nhost/react";
+https://hrwnxbkjidebhmowwfrc.ap-south-1.nhost.app
+
+// ./src/lib/nhost.js
+import { NhostClient } from "@nhost/nhost-js";
 
 export const nhost = new NhostClient({
-  subdomain: "hrwnxbkjidebhmowwfrc",
-  region: "ap-south-1",
-})
+  backendUrl: "https://hrwnxbkjidebhmowwfrc.ap-south-1.nhost.app" 
+});
+
