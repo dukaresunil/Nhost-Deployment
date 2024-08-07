@@ -3,20 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { NhostProvider } from '@nhost/react';
-import { NhostClient } from '@nhost/react';
-
-// Replace with your Nhost backend URL
-const nhost = new NhostClient({
-  baseURL: 'https://your-backend-url.nhost.app',
-});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <NhostProvider client={nhost}>
-      <App />
-    </NhostProvider>
+    <App />
   </React.StrictMode>
 );
 
